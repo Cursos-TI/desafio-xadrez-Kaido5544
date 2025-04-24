@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Movimento da Torre: 5 casas para a direita (usando for)
+    // Movimento da Torre: 5 casas para a direita 
     int casasTorre = 5;
     printf("Movimento da Torre:\n");
     for (int i = 1; i <= casasTorre; i++) {
@@ -10,7 +10,7 @@ int main() {
 
     printf("\n");
 
-    // Movimento do Bispo: 5 casas na diagonal para cima e à direita (usando while)
+    // Movimento do Bispo: 5 casas na diagonal para cima e à direita 
     int casasBispo = 5;
     int contadorBispo = 0;
     printf("Movimento do Bispo:\n");
@@ -21,7 +21,7 @@ int main() {
 
     printf("\n");
 
-    // Movimento da Rainha: 8 casas para a esquerda (usando do-while)
+    // Movimento da Rainha: 8 casas para a esquerda 
     int casasRainha = 8;
     int contadorRainha = 0;
     printf("Movimento da Rainha:\n");
